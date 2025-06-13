@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Your Name' => 'your@email.com' }
   s.source           = { :git => 'https://github.com/alibabacloud-sdk-swift/domain-20180208.git', :tag => s.version }
-  s.source_files     = 'LiucyNet/**/*.{h,m,swift}'  # adjust as needed
-  s.platform         = :ios, '13.3'
+  s.source_files     = 'Sources/**/*.swift'  # adjust as needed
+  s.platform         = :ios, '13.0'
   s.swift_versions   = ['5.6']
 end
 
