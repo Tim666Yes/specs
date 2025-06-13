@@ -6,10 +6,10 @@ Pod::Spec.new do |spec|
     spec.tvos.deployment_target = "9.0"
     spec.watchos.deployment_target = "2.0"
     spec.summary      = 'A natural language date parser in Swift (ported from chrono.js)'
-    spec.author       = 'Jerrywell'
-    spec.homepage     = 'https://github.com/quire-io/SwiftyChrono'
+    spec.author       = 'copy'
+    spec.homepage     = 'https://github.com/Tim666Yes/SwiftyChrono'
     spec.license      = { :type => 'MIT', :file => 'LICENSE' }
-    spec.source       = { :git => 'https://github.com/quire-io/SwiftyChrono.git', :tag => 'v1.1.0' }
+    spec.source       = { :git => 'git@github.com:Tim666Yes/SwiftyChrono.git', :tag => 'v1.1.0' }
     spec.source_files = 'Sources/**/*.swift'
     spec.social_media_url = 'https://twitter.com/quire_io'
     spec.documentation_url = 'https://github.com/quire-io/SwiftyChrono'
